@@ -4,7 +4,7 @@
 # if the number is divisible by 5, print Pop.
 # if it's divisible by both 3 and 5, print CracklePop
 
-import os, sys, math
+import sys
 
 for i in range(1, 31):                     # list numbers within 1 through 101
     if i % 3 == 0:                         # if the number is divisible by 3
